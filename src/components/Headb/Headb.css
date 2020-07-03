@@ -1,0 +1,14 @@
+.header{
+    background-color:rgb(218, 183, 31)!important;
+margin-bottom: 0px!important;
+}
+.header h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    padding:0;
+}
+.navbar-background{
+    background-color:burlywood;
+    margin-top: 0px!important;
+    background-color: lavenderblush;
+}
