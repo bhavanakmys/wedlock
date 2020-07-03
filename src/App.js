@@ -10,14 +10,17 @@ import Footer from './components/Footer/Footer';
 import Mid from './components/Mid/Mid';
 import Login from './components/Login/Login';
 import login from './components/Headb/login';
+import RegistrationC from './components/RegstrationC/RegistratioC';
 
 function App() {
   return (
     <div>
  {/* <Headb/>
   <Middle/>
- <Footer/>*/}
-  <Login/>
+ <Footer/>
+  <Login/>*/}
+
+  <RegistrationC/>
    
     </div>
   );
