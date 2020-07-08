@@ -82,3 +82,4 @@ import Login from './login';
     }
     
 }
+export default Headb;

@@ -1,0 +1,27 @@
+.fcontainer{
+    background: #F7F9FA;
+    height: auto;
+    width: 80% !important;
+    margin: 5em auto !important;
+    color: snow !important;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.4);
+  }
+  
+  
+  label{ 
+    color: #24B9B6 !important;
+    font-size: 20px !important; 
+    font-weight: 400 !important;
+    font-family:'TimesRoman'!important;
+  }
+  button{
+    margin-bottom: 8px !important;
+  }
+  h1{
+    color: #24B9B6;
+    padding-top: .5em;
+    text-align: center;
+    font-family: sans-serif;
+  }
