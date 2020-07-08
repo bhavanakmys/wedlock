@@ -61,7 +61,7 @@ const RegistrationC = props => {
                                 type="text"
                                 name="username"
                                 id="exampleName"
-                                placeholder="Enter Your UserId"/>
+                                placeholder="Enter Your Password"/>
                         </Col>
                     </FormGroup>
 
@@ -82,44 +82,74 @@ const RegistrationC = props => {
                             </Col>
                         </Label>
                         <Collapse isOpen={isOpen}>
-                
-                                <FormGroup row>
-                                    <Label sm="3" md={{ offset:2 }}className="label">Shop Type</Label>
-                                    <Col sm="4"  md={{ size:4 , offset: 1 }}>
-                                        <Input type="select" name="select" id="exampleSelect">
-                                            <option className="option">Wedding halls</option>
-                                            <option className="option">Decorator</option>
-                                            <option className="option">Flourists</option>
-                                            <option className="option">MakeUp Artist</option>
-                                            <option className="option">Musicians</option>
-                                        </Input>
-                                    </Col>
-                                </FormGroup>
-                                <FormGroup row>
 
-                                    <Label for="name" sm={3} md={{ offset:2 }} className="label">Address</Label>
-                                    <Col sm={4} md={{ size:4 , offset: 1 }}>
-                                        <Input
-                                            type="text"
-                                            name="username"
-                                            id="exampleName"
-                                            placeholder="Enter Your Shop's Address"/>
-                                    </Col>
-                                </FormGroup>
+                            <FormGroup row>
+                                <Label
+                                    sm="3"
+                                    md={{
+                                    offset: 2
+                                }}className="label">Shop Type</Label>
+                                <Col
+                                    sm="4"
+                                    md={{
+                                    size: 4,
+                                    offset: 1
+                                }}>
+                                    <Input type="select" name="select" id="exampleSelect">
+                                        <option className="option">Wedding halls</option>
+                                        <option className="option">Decorator</option>
+                                        <option className="option">Flourists</option>
+                                        <option className="option">MakeUp Artist</option>
+                                        <option className="option">Musicians</option>
+                                    </Input>
+                                </Col>
+                            </FormGroup>
+                            <FormGroup row>
 
-                                <FormGroup row>
+                                <Label
+                                    for="name"
+                                    sm={3}
+                                    md={{
+                                    offset: 2
+                                }}
+                                    className="label">Address</Label>
+                                <Col
+                                    sm={4}
+                                    md={{
+                                    size: 4,
+                                    offset: 1
+                                }}>
+                                    <Input
+                                        type="text"
+                                        name="username"
+                                        id="exampleName"
+                                        placeholder="Enter Your Shop's Address"/>
+                                </Col>
+                            </FormGroup>
 
-                                    <Label for="name" sm={3} md={{ offset:2 }} className="label">Contact No</Label>
-                                    <Col sm={4} md={{ size:4 , offset: 1 }}>
-                                        <Input
-                                            type="text"
-                                            name="username"
-                                            id="exampleName"
-                                            placeholder="Enter Your Contact Number"/>
-                                    </Col>
-                                </FormGroup>
+                            <FormGroup row>
 
-                        
+                                <Label
+                                    for="name"
+                                    sm={3}
+                                    md={{
+                                    offset: 2
+                                }}
+                                    className="label">Contact No</Label>
+                                <Col
+                                    sm={4}
+                                    md={{
+                                    size: 4,
+                                    offset: 1
+                                }}>
+                                    <Input
+                                        type="text"
+                                        name="username"
+                                        id="exampleName"
+                                        placeholder="Enter Your Contact Number"/>
+                                </Col>
+                            </FormGroup>
+
                         </Collapse>
 
                     </FormGroup>
